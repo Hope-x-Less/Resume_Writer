@@ -1,0 +1,20 @@
+{
+  "name": "ai-resume-generator-api",
+  "version": "1.0.0",
+  "description": "Express backend for an AI Resume & Cover Letter Generator",
+  "type": "module",
+  "main": "src/server.js",
+  "packageManager": "npm@11.11.1",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
